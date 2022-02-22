@@ -15,6 +15,7 @@ namespace Factory06
         public Factory(long initialMoney)
         {
             money = initialMoney;
+            maxNbMachines = 50;
             machines = new List<Machine>();
         }
 
@@ -166,8 +167,12 @@ namespace Factory06
          * <param name="type">The type of machine to clear items</param>
          */
         public void ClearMatch(MachineType type)
-        {
-            throw new NotImplementedException("Fix me!");
+        { 
+            foreach (MachineType M in machines)
+            {
+                if (M == type)
+                    M.Clear();
+            }
         }
     }
 }

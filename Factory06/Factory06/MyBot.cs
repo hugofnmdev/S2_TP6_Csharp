@@ -11,6 +11,8 @@ namespace Factory06
         // TODO
         public override void Update(Game game)
         {
+            game.Produce(MachineType.Hat, 1);
+            game.Produce(MachineType.Coat, 1);
             game.UpdateMoneyAll();
         }
 

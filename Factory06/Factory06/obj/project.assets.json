@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/hugo.meleiro/.nuget/packages/": {}
+    "/home/hugofnm/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/afs/cri.epita.fr/user/h/hu/hugo.meleiro/u/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/Factory06.csproj",
+      "projectUniqueName": "/home/hugofnm/Documents/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/Factory06.csproj",
       "projectName": "Factory06",
-      "projectPath": "/afs/cri.epita.fr/user/h/hu/hugo.meleiro/u/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/Factory06.csproj",
-      "packagesPath": "/home/hugo.meleiro/.nuget/packages/",
-      "outputPath": "/afs/cri.epita.fr/user/h/hu/hugo.meleiro/u/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/obj/",
+      "projectPath": "/home/hugofnm/Documents/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/Factory06.csproj",
+      "packagesPath": "/home/hugofnm/.nuget/packages/",
+      "outputPath": "/home/hugofnm/Documents/EPITA/TPs/C#/tp6-hugo.meleiro/Factory06/Factory06/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/hugo.meleiro/.nuget/NuGet/NuGet.Config"
+        "/home/hugofnm/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/nix/store/i5xhm2q3cr77zym225lbq8vr4dn8jymj-dotnet-sdk-5.0.403/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -53,6 +53,8 @@ namespace Factory06
         public override uint Destroy()
         {
             Clear();
+            level = 1;
+            capacity = 300;
             return (uint)MachinePrice.Hat / 3;
 
         }

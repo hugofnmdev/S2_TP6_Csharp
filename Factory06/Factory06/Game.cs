@@ -16,7 +16,8 @@ namespace Factory06
         public Game(int nbRound, long initialMoney)
         {
             this.nbRound = nbRound;
-            this.initialMoney = Money;
+            round = 1;
+            this.factory = new Factory(initialMoney);
         }
         
         
@@ -29,7 +30,15 @@ namespace Factory06
          */
         public long Launch(Bot bot)
         {
-            throw new NotImplementedException("Fix me!");
+            Game game = new Game(nbRound, Money);
+            bot.Start(game);
+            while (nbRound >= round)
+            {
+                bot.Update(game);
+                round++;
+            }
+            bot.End(game);
+            return Money;
         }
 
         // TODO

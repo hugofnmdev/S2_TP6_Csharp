@@ -9,17 +9,8 @@ namespace Factory06
         protected int level;
         protected uint capacity;
         
-        public List<Item> Items
-        {
-         get => items;
-         set => items = value;
-        }
-        public MachineType Type
-        {
-         get => type;
-         set => type = value;
-        }
-
+        public List<Item> Items => items;
+        public MachineType Type => type;
         public int Level => level;
         public uint Capacity => capacity;
 
